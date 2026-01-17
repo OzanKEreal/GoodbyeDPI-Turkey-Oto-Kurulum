@@ -1,2 +1,2 @@
 
-pyinstaller --noconsole --onefile --collect-all customtkinter --uac-admin --name="GoodbyeDPI_Oto_Launcher" main.py
+pyinstaller --noconsole --onefile --collect-all customtkinter --uac-admin --icon=icon.ico --name="GoodbyeDPI_Oto_Launcher" main.py
