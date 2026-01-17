@@ -8,7 +8,6 @@ Bu araç, YouTube kanalımın takipçileri için GoodbyeDPI yazılımının Tür
 *   **Akıllı Test:** Sizin internetinize en uygun ayarı (Turkcell, Superonline, TTNET vb.) otomatik dener ve bulur.
 *   **Modern Arayüz:** Kullanıcı dostu, karanlık mod (Dark Mode) tasarım.
 *   **Oto Başlat:** İsterseniz bilgisayar açıldığında otomatik devreye girer.
-*   **Gizli Mod:** Siyah konsol penceresi açılmaz, arka planda sessizce çalışır.
 
 ## 📥 Nasıl İndirilir?
 
@@ -24,4 +23,5 @@ Bu araç, YouTube kanalımın takipçileri için GoodbyeDPI yazılımının Tür
 
 ## 👨‍💻 Geliştirici
 
+Youtube: OzanKE34
 YouTube kanalıma abone olmayı unutmayın! ❤️
