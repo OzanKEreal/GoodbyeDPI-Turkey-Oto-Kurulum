@@ -21,6 +21,16 @@ Bu araç, YouTube kanalımın takipçileri için GoodbyeDPI yazılımının Tür
 *   Program internet ayarlarını yönettiği için **Yönetici İzni** gerektirir.
 *   Bazı antivirüs programları, sistem ayarlarını değiştirdiği için uyarı verebilir. Program açık kaynaktır, kodları buradan inceleyebilirsiniz.
 
+## LISANS
+
+KAPALI KOD VE KULLANIM LİSANSI
+
+- Bu projenin kapalı kaynak bir çalışma olduğunu ve tüm haklarının saklı olduğunu belirtmek isterim.
+- Projenin Kaynak kodları açık ama Kapalıdır
+- Proje dosyalarının çoğaltılması, kopyalanması veya başka yere yüklenmesi yasaktır.
+- Sadece projeyi indirip kendi yerel bilgisayarınızda kullanmakta serbestsiniz.
+- Lütfen kullanım veya değişiklik için izin istemeyin; bu proje sergileme amaçlıdır.
+
 ## 👨‍💻 Geliştirici
 
 Youtube: OzanKE34
