@@ -23,13 +23,8 @@ Bu araç, YouTube kanalımın takipçileri için GoodbyeDPI yazılımının Tür
 
 ## LISANS
 
-KAPALI KOD VE KULLANIM LİSANSI
-
-- Bu projenin kapalı kaynak bir çalışma olduğunu ve tüm haklarının saklı olduğunu belirtmek isterim.
-- Projenin Kaynak kodları açık ama Kapalıdır
-- Proje dosyalarının çoğaltılması, kopyalanması veya başka yere yüklenmesi yasaktır.
-- Sadece projeyi indirip kendi yerel bilgisayarınızda kullanmakta serbestsiniz.
-- Lütfen kullanım veya değişiklik için izin istemeyin; bu proje sergileme amaçlıdır.
+## Lisans
+Bu proje için lisans ve kullanım şartları LICENSE dosyasında belirtilmiştir.
 
 ## 👨‍💻 Geliştirici
 
