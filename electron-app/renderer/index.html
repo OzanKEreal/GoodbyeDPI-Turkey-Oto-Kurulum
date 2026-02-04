@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoodbyeDPI Türkiye • Electron</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <nav class="topbar">
+        <div>
+          <p class="eyebrow">GoodbyeDPI Türkiye</p>
+          <span class="topbar-title">Electron Kontrol Merkezi</span>
+        </div>
+        <div class="topbar-actions">
+          <button class="ghost" id="profileTestBtn">Profil Testi</button>
+          <button class="primary" id="installBtn">Kurulumu Başlat</button>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div>
+          <h1>Hızlı, Hafif ve Modern Arayüz</h1>
+          <p class="subtitle">
+            Electron ile tüm platformlarda çalışan yeni nesil masaüstü arayüz.
+          </p>
+          <div class="quick-stats">
+            <div class="stat-card">
+              <span>🚀 Hızlı Kurulum</span>
+              <strong>Tek tıkla hazır</strong>
+            </div>
+            <div class="stat-card">
+              <span>🧪 Akıllı Test</span>
+              <strong>Profil önerisi</strong>
+            </div>
+            <div class="stat-card">
+              <span>⚡ Oto Başlat</span>
+              <strong>Başlangıçta çalış</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="status-card">
+          <div class="status-header">
+            <h2>Durum Paneli</h2>
+            <span class="status-pill" id="statusPill">Hazır</span>
+          </div>
+          <div class="status-item">
+            <span>Son Çalıştırma</span>
+            <strong id="lastRun">Henüz çalıştırılmadı</strong>
+          </div>
+          <div class="status-item">
+            <span>Aktif Profil</span>
+            <strong id="activeProfile">Seçilmedi</strong>
+          </div>
+          <div class="status-item">
+            <span>Dosyalar</span>
+            <strong id="installState">Yüklü değil</strong>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+          <div class="status-message" id="statusMessage">Hazır.</div>
+        </div>
+      </section>
+
+      <section class="profiles">
+        <div>
+          <h2>Profil Seçimi</h2>
+          <p class="subtitle">
+            İndirme tamamlandıktan sonra profillerden birini seçip başlatabilirsiniz.
+          </p>
+        </div>
+        <div class="profile-actions">
+          <select id="profileSelect">
+            <option value="">Profil seçin</option>
+            <option value="turkey_dnsredir.cmd">Standart</option>
+            <option value="turkey_dnsredir_alternative_superonline.cmd">
+              Superonline
+            </option>
+            <option value="turkey_dnsredir_alternative2.cmd">Alternatif 2</option>
+            <option value="turkey_dnsredir_alternative3.cmd">Alternatif 3</option>
+            <option value="turkey_dnsredir_alternative4_superonline.cmd">
+              Alternatif 4
+            </option>
+          </select>
+          <button class="primary" id="startProfileBtn">Profili Başlat</button>
+        </div>
+      </section>
+
+      <section class="steps">
+        <article class="step-card">
+          <span class="step-index">01</span>
+          <h3>Kurulum</h3>
+          <p>Gerekli dosyalar hızlıca indirilir ve kurulur.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-index">02</span>
+          <h3>Test</h3>
+          <p>En iyi profil otomatik olarak bulunur.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-index">03</span>
+          <h3>Başlat</h3>
+          <p>Seçilen profil arka planda çalışır.</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

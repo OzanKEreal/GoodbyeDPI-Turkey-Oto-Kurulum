@@ -1,0 +1,231 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #1d1f30 0%, #0f111a 55%, #08090f 100%);
+  color: #f5f6fb;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 36px clamp(24px, 5vw, 64px);
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.topbar-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.topbar-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #92a1ff;
+  margin: 0;
+}
+
+.hero {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: center;
+}
+
+h1 {
+  font-size: clamp(32px, 4vw, 48px);
+  margin: 12px 0;
+}
+
+.subtitle {
+  max-width: 520px;
+  color: #c5c9e5;
+  line-height: 1.6;
+}
+
+.quick-stats {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin-top: 24px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stat-card strong {
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  font-size: 15px;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+
+.primary {
+  background: linear-gradient(135deg, #6c8cff, #6f51ff);
+  color: #fff;
+  box-shadow: 0 16px 30px rgba(108, 140, 255, 0.25);
+}
+
+.ghost {
+  background: rgba(255, 255, 255, 0.08);
+  color: #f5f6fb;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.status-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-pill {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(108, 140, 255, 0.2);
+}
+
+.status-pill.is-busy {
+  background: rgba(255, 184, 77, 0.2);
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.status-item:last-of-type {
+  border-bottom: none;
+}
+
+.progress {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(135deg, #6c8cff, #6f51ff);
+  transition: width 0.3s ease;
+}
+
+.status-message {
+  margin-top: 4px;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(108, 140, 255, 0.12);
+  color: #dbe2ff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.profiles {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: center;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+select {
+  background: rgba(255, 255, 255, 0.08);
+  color: #f5f6fb;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 12px 16px;
+  min-width: 260px;
+  font-size: 15px;
+}
+
+select option {
+  color: #0f111a;
+}
+
+.steps {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.step-card {
+  padding: 20px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.step-index {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #92a1ff;
+}

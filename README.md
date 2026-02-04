@@ -21,6 +21,20 @@ Bu araç, YouTube kanalımın takipçileri için GoodbyeDPI yazılımının Tür
 *   Program internet ayarlarını yönettiği için **Yönetici İzni** gerektirir.
 *   Bazı antivirüs programları, sistem ayarlarını değiştirdiği için uyarı verebilir. Program açık kaynaktır, kodları buradan inceleyebilirsiniz.
 
+## ⚡ Electron (Yeni Arayüz)
+
+Python yerine Electron tabanlı arayüz için başlangıç iskeleti eklendi. Electron sürümü,
+görsel kontrol panelini ve buton akışlarını hazırlar; gerçek sistem komutları
+ileride `main.js` üzerinden Windows/macOS/Linux için ayrı ayrı uygulanacaktır.
+
+### Electron çalıştırma
+
+```bash
+cd electron-app
+npm install
+npm start
+```
+
 ## LISANS
 
 ## Lisans

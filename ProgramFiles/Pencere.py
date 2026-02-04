@@ -72,7 +72,7 @@ class ModernDPIApp(ctk.CTk):
         
         # Logo
         ctk.CTkLabel(self.main_frame, text="🛡️", font=("Arial", 60)).pack(pady=(30, 5))
-        
+
         # Başlık
         ctk.CTkLabel(
             self.main_frame, 
@@ -96,6 +96,34 @@ class ModernDPIApp(ctk.CTk):
             text_color="gray75",
             justify="center"
         ).pack(pady=15)
+
+        # Hızlı bilgiler
+        stats_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
+        stats_frame.pack(pady=10, padx=20, fill="x")
+        stats_frame.grid_columnconfigure((0, 1, 2), weight=1, uniform="stats")
+
+        for idx, (title, desc) in enumerate(
+            [
+                ("🚀 Hızlı Kurulum", "Dosyalar otomatik indirilsin."),
+                ("🧪 Akıllı Test", "En uygun profil önerilsin."),
+                ("⚡ Oto Başlat", "Sistem açılışında çalışsın.")
+            ]
+        ):
+            card = ctk.CTkFrame(stats_frame, corner_radius=12, fg_color=("gray85", "gray20"))
+            card.grid(row=0, column=idx, padx=6, pady=6, sticky="nsew")
+
+            ctk.CTkLabel(
+                card,
+                text=title,
+                font=("Roboto", 12, "bold")
+            ).pack(pady=(12, 4))
+
+            ctk.CTkLabel(
+                card,
+                text=desc,
+                font=("Roboto", 11),
+                text_color="gray60"
+            ).pack(pady=(0, 12))
 
         # Butonlar
         btn_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")

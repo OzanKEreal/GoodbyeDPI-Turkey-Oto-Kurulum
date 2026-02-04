@@ -1,0 +1,13 @@
+{
+  "name": "goodbyedpi-electron",
+  "version": "0.1.0",
+  "description": "GoodbyeDPI Turkey Electron UI",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31.0.1"
+  }
+}
