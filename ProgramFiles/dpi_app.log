@@ -1,0 +1,8 @@
+[2026-02-04 23:37:57] INFO: DPIService başlatıldı
+[2026-02-04 23:37:57] INFO: Admin olarak yeniden başlatılıyor...
+[2026-02-04 23:37:59] INFO: DPIService başlatıldı
+[2026-02-04 23:38:34] INFO: Download ve extract başarılı
+[2026-02-04 23:38:35] DEBUG: Process temizlendi
+[2026-02-04 23:38:35] INFO: DPI başlatıldı: turkey_dnsredir.cmd
+[2026-02-04 23:38:43] INFO: Config kaydedildi: {'working_cmd': 'turkey_dnsredir.cmd'}
+[2026-02-04 23:38:43] INFO: Çalışan profil kaydedildi: turkey_dnsredir.cmd

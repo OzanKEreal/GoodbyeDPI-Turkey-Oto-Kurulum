@@ -1,2 +1,35 @@
 
 pyinstaller --noconsole --onefile --collect-all customtkinter --uac-admin --icon=icon.ico --name="GoodbyeDPI_Oto_Launcher" main.py
+
+TUTORIAL 
+TAURI BUILD KOMUTLARI
+
+GENEL (BULUNDUĞUN İŞLETİM SİSTEMİ İÇİN):
+npm run tauri build
+
+
+WINDOWS (WINDOWS ÜZERİNDE ÇALIŞTIRILIR):
+npm run tauri build
+ÇIKTI:
+src-tauri/target/release/bundle/windows/
+
+
+LINUX (LINUX ÜZERİNDE ÇALIŞTIRILIR):
+npm run tauri build
+ÇIKTI:
+src-tauri/target/release/bundle/linux/
+
+
+MACOS (MACOS ÜZERİNDE ÇALIŞTIRILIR):
+npm run tauri build
+ÇIKTI:
+src-tauri/target/release/bundle/macos/
+
+
+DEBUG / GELİŞTİRME:
+npm run tauri dev
+
+
+NOT:
+- Cross-platform tek işletim sisteminden build alınamaz.
+- Her platform kendi işletim sisteminde derlenir.
