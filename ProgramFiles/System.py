@@ -245,14 +245,14 @@ class DPIService:
             si.wShowWindow = subprocess.SW_HIDE
 
             self.process = subprocess.Popen(
-                [full_path],
+                ["cmd", "/c", full_path],
                 cwd=target_dir,
                 creationflags=subprocess.CREATE_NO_WINDOW,
                 stdin=subprocess.DEVNULL,
                 stdout=subprocess.DEVNULL,
                 stderr=subprocess.DEVNULL,
                 startupinfo=si,
-                shell=True
+                shell=False
             )
             
             log_info(f"DPI başlatıldı: {cmd_file}")
