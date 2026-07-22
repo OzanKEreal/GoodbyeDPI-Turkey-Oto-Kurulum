@@ -7,7 +7,6 @@
 - 📊 **Canlı İzleme**: Çalışma süresi sayacı, bağlantı durumu, anlık test
 - 🚀 **Tam Otomatik Kurulum**: Tüm profilleri sırayla dener, çalışanı bulup aktif eder
 - 🔧 **Gelişmiş Ayarlar**: Oto yeniden bağlanma, DNS temizleme, tema seçenekleri
-
 ## 🔧 İyileştirmeler
 
 - **Menü tamamen yenilendi** - 7 ekranlı yan navigasyon sistemi
