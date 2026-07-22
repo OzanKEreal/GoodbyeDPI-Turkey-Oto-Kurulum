@@ -1,19 +1,38 @@
->>>>> TÜM HAKLARI SAKLIDIR — KAPALI KAYNAK
+5) KAPALI KAYNAK — KULLANILAMAZ, YAYILAMAZ
+5) CLOSED SOURCE — NO USE, NO REDISTRIBUTION
 
-Bu proje kapalı kaynaklıdır.
-Tüm telif hakları saklıdır.
+Türkçe
 
-Bu yazılımın veya herhangi bir parçasının:
-- Kopyalanması
-- Çoğaltılması
-- Değiştirilmesi
-- Dağıtılması
-- Başka bir yerde yayınlanması
+Copyright (c) 2026 Ozan
 
-yazılı izin olmaksızın yasaktır.
+Tüm hakları saklıdır.
 
-Yazılım yalnızca kişisel değerlendirme ve yerel kullanım amacıyla indirilebilir ve çalıştırılabilir.
-Herhangi bir ticari, kamusal veya yeniden dağıtım amacıyla kullanım kesinlikle yasaktır.
+Bu yazılım üzerinde hiçbir kullanım hakkı açıkça verilmemiştir. Yazılımın, kaynak kodunun, derlenmiş sürümünün veya herhangi bir parçasının izinsiz olarak kullanılması, kopyalanması, çoğaltılması, değiştirilmesi, yayımlanması, dağıtılması, satılması, alt lisanslanması veya başka bir projeye dahil edilmesi kesinlikle yasaktır.
 
-YAZILIM "OLDUĞU GİBİ" SAĞLANMAKTADIR.
-HİÇBİR ŞEKİLDE GARANTİ VERİLMEZ.
+Bu projeye ait kaynak kod, ikili dosyalar, yapılandırmalar, belgeler, tasarımlar, metinler, görseller, isimler, simgeler, işleyiş mantığı ve benzeri tüm öğeler telif hakkı ve fikri mülkiyet koruması altındadır. Her türlü erişim, yalnızca açık ve yazılı izin ile mümkündür.
+
+Bu yazılımın herhangi bir bölümünü tersine mühendislik ile incelemek, kaynak yapısını çözmeye çalışmak, işleyişini taklit etmek, yeniden üretmek, benzer bir ürün geliştirmek veya doğrudan dolaylı biçimde faydalanmak yasaktır.
+
+Bu lisans kapsamında kullanıcıya hiçbir açık kullanım izni verilmez. Yalnızca hak sahibinin yazılı olarak izin verdiği durumlarda, izin verilen kapsam dahilinde sınırlı erişim sağlanabilir. Bunun dışında tüm haklar saklıdır ve açıkça verilmemiş her hak korunur.
+
+Bu yazılımın kötüye kullanımı, yetkisiz çoğaltılması veya izinsiz dağıtımı durumunda hak sahibi yasal yollara başvurma hakkını saklı tutar.
+
+Yazılım “olduğu gibi” sunulmaktadır. Herhangi bir garanti verilmez. Geliştirici, yazılımın kullanımından veya kullanılamamasından doğan hiçbir zarardan sorumlu değildir.
+
+English
+
+Copyright (c) 2026 Ozan
+
+All rights reserved.
+
+No rights to use this Software are expressly granted. Unauthorized use, copying, reproduction, modification, publication, distribution, sale, sublicensing, or incorporation of the source code, compiled version, or any part of this Software into another project is strictly prohibited.
+
+All source code, binaries, configurations, documentation, designs, text, images, names, icons, functional logic, and similar elements of this project are protected by copyright and other intellectual property laws. Access is permitted only with explicit written permission from the rights holder.
+
+Reverse engineering, attempting to discover the source structure, imitating the behavior, reproducing the Software, building a similar product, or benefiting directly or indirectly from any part of the Software is prohibited.
+
+No express usage rights are granted under this license. Only where the rights holder has provided written permission may limited access be allowed within the scope of that permission. Otherwise, all rights are reserved, and any rights not expressly granted are retained.
+
+In the event of misuse, unauthorized reproduction, or unlawful distribution, the rights holder reserves the right to pursue legal remedies.
+
+The Software is provided “as is” without any warranty. The developer shall not be liable for any damages arising from the use or inability to use the Software.

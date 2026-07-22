@@ -1,2 +1,1 @@
-
-pyinstaller --noconsole --onefile --collect-all customtkinter --uac-admin --icon=icon.ico --name="GoodbyeDPI_Oto_Launcher" main.py
+python -m PyInstaller --noconsole --onefile --collect-all customtkinter --collect-all requests --collect-all urllib3 --collect-all certifi --collect-all charset_normalizer --collect-all idna --uac-admin --icon=icon.ico --name="GoodbyeDPI_Oto_Launcher_v2" main.py
